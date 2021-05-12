@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/taco-5651624_640.png" type="image/png">
+  <title>TACO - Mexican food</title>
+</head>
+<!-- img from pixabay.com -->
+<!-- img from unsplash.com --> 
+
+
+<body>
+  <!-- navigation -->
+
+  <nav class="navbar sticky-top navbar navbar-expand-lg navbar-dark bg-dark py-3" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand offset-xl-1" href="#nav"><img src="./img/taco-5651624_640.png" width="100vw"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="text-white text-center ps-3">TACO Mexican Food</div>
+        </ul>
+        <ul class="navbar-nav pe-5">
+          <li class="nav-item px-3">
+            <a class="nav-link" aria-current="page" href="#about">O nas</a>
+          </li>
+          <li class="nav-item dropdown pe-5 ps-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#appetizers">Przystawki</a></li>
+              <li><a class="dropdown-item" href="#soups">Zupy</a></li>
+              <li><a class="dropdown-item" href="#main_dishes">Dania główne</a></li>
+            </ul>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <section">
+    <div class="container-fluid bg-light pb-3" id="about">
+      <div class="row d-flex justify-content-center">
+        <div class="col-11 col-xxl-11">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/jarritos-mexican-soda-lLEaY8Ehmek-unsplash.jpg" class="d-block w-100" alt="restaurant01">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lorem ipsum dolor sit</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti unde cum, quae, earum eaque quia
+                    fugit rem at dolorem cupiditate, velit magni qui eum voluptatem ipsa sint? Animi, blanditiis?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/restaurant-3597677_1920.jpg" class="d-block w-100" alt="restaurant02">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lorem ipsum dolor sit</h5>
+                  <p class="#" width="6rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti unde cum,
+                    quae, earum eaque quia fugit rem at dolorem cupiditate, velit magni qui eum voluptatem ipsa sint? Animi,
+                    blanditiis?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/bistro-498504_1920.jpg" class="d-block w-100" alt="food">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lorem ipsum dolor sit</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti unde cum, quae, earum eaque quia
+                    fugit rem at dolorem cupiditate, velit magni qui eum voluptatem ipsa sint? Animi, blanditiis?</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="d-xs-block d-md-none">
+            <p id="about-text" id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti unde cum, quae, earum eaque quia
+              fugit rem at dolorem cupiditate, velit magni qui eum voluptatem ipsa sint? Animi, blanditiis?</p>
+            <p id="about-text" id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti unde cum, quae, earum eaque quia
+              fugit rem at dolorem cupiditate, velit magni qui eum voluptatem ipsa sint? Animi, blanditiis?</p>
+            <p id="about-text" id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti unde cum, quae, earum eaque quia
+                fugit rem at dolorem cupiditate, velit magni qui eum voluptatem ipsa sint? Animi, blanditiis?</p>  
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- menu -->
+    <section>
+      <div class="container-fluid bg-light text-dark" id="menu">
+        <div class="row justify-content-center">
+          <div class="col-12 align-self-center">
+            <h2 class="text-center text-decoration-underline  mb-5 mt-3 fs-1">Menu</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="appetizers">
+          <div class="col-12 align-self-center">
+            <h3 class="text-center mb-2 fw-bold fs-2">Przystawki</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center my-2 align-items-center">
+          <div class="col-sm-3 col-xs-12 align-self-center d-flex justify-content-center">
+            <img src="./img/herson-rodriguez-aZOqcEK2KuQ-unsplash.jpg" class="align-self-center" alt="nachos"
+              width="80%">
+          </div>
+          <div class="col-sm-6 col-xs-12 d-flex flex-column align-items-start justify-content-center">
+            <div>
+              <h4 class="d-block text-sm-start text-xs-center text-nowrap fw-bold text-decoration-underline fs-4">Lorem ipsum</h5>
+            </div>
+            <div>
+              <p class="text-start d-block align-self-center fs-5 fw-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cum, vel in quae repellat aperiam, minus facilis officiis ducimus quis consequatur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center my-2 aign-items-center">
+          <div class="col-sm-3 col-xs-12 align-self-center d-flex justify-content-center">
+            <img src="./img/jarett-lopez-6WHl6T-fxU0-unsplash.jpg" class="align-self-center" alt="tacos" width="80%">
+          </div>
+          <div class="col-sm-6 col-xs-12 d-flex flex-column align-items-start justify-content-center">
+            <div>
+              <h4 class="d-block text-start text-nowrap fw-bold text-decoration-underline  fs-4">Lorem ipsum</h5>
+            </div>
+            <div>
+              <p class="text-start d-block align-self-center fs-5 fw-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cum, vel in quae repellat aperiam, minus facilis officiis ducimus quis consequatur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="soups">
+          <div class="col-12 align-self-center">
+            <h3 class="text-center mb-2 mt-5 fw-bold fs-2">Zupy</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center my-2 aign-items-center">
+          <div class="col-sm-3 col-xs-12 align-self-center d-flex justify-content-center">
+            <img src="./img/jarritos-mexican-soda-pAU112ZIXvU-unsplash.jpg" class="align-self-center" alt="soup1"
+              width="80%">
+          </div>
+          <div class="col-sm-6 col-xs-12 d-flex flex-column align-items-start justify-content-center">
+            <div>
+              <h4 class="d-block text-start text-nowrap fw-bold text-decoration-underline fs-4">Lorem ipsum</h5>
+            </div>
+            <div>
+              <p class="text-start d-block align-self-center fs-5 fw-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cum, vel in quae repellat aperiam, minus facilis officiis ducimus quis consequatur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center my-2 aign-items-center">
+          <div class="col-sm-3 col-xs-12 align-self-center d-flex justify-content-center">
+            <img src="./img/fantastic-ordinary-qpb2bXDd60I-unsplash.jpg" class="align-self-center" alt="soup2"
+              width="80%">
+          </div>
+          <div class="col-sm-6 col-xs-12 d-flex flex-column align-items-start justify-content-center">
+            <div>
+              <h4 class="d-block text-start text-nowrap fw-bold text-decoration-underline  fs-4">Lorem ipsum</h5>
+            </div>
+            <div>
+              <p class="text-start d-block align-self-center fs-5 fw-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cum, vel in quae repellat aperiam, minus facilis officiis ducimus quis consequatur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="main_dishes">
+          <div class="col-12 align-self-center">
+            <h3 class="text-center mb-2 mt-5 fw-bold fs-2">Dania główne</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center my-2 aign-items-center">
+          <div class="col-sm-3 col-xs-12 align-self-center d-flex justify-content-center">
+            <img src="./img/jarritos-mexican-soda-oOTceVp6i3U-unsplash.jpg" class="align-self-center" alt="main_dish1"
+              width="80%">
+          </div>
+          <div class="col-sm-6 col-xs-12 flex flex-column align-items-start justify-content-center">
+            <div>
+              <h4 class="d-block text-start text-nowrap fw-bold text-decoration-underline fs-4">Lorem ipsum</h5>
+            </div>
+            <div>
+              <p class="text-start d-block align-self-center fs-5 fw-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cum, vel in quae repellat aperiam, minus facilis officiis ducimus quis consequatur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-2 aign-items-center">
+          <div class="col-sm-3 col-xs-12 align-self-center d-flex justify-content-center">
+            <img src="./img/2sigmund-akfDvDi6Wt4-unsplash.jpg" class="align-self-center" alt="main_dish2" width="80%">
+          </div>
+          <div class="col-sm-6 col-xs-12 d-flex flex-column align-items-start justify-content-center">
+            <div>
+              <h4 class="d-block text-start text-nowrap fw-bold text-decoration-underline  fs-4">Lorem ipsum</h5>
+            </div>
+            <div>
+              <p class="text-start d-block align-self-center fs-5 fw-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cum, vel in quae repellat aperiam, minus facilis officiis ducimus quis consequatur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section>
+      <div class="container-fluid bg-light text-dark pt-3" id="contact">
+        <div class="row">
+          <div class="row justify-content-center">
+            <div class="col-12 align-self-center">
+              <h2 class="text-center text-decoration-underline  mb-2 mt-3 fs-1">Kontakt</h2>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-evenly">
+            <div class="col-xs-12 col-md-6 d-flex flex-column my-3">
+              <span class="fw-bold text-center text-decoration-underline fs-4">Godziny otwarcia:</span>
+              <span class="fs-5 text-center">Poniedziałek - Czwartek: 10:00 - 18:00</span>
+              <span class="fs-5 text-center">Piątek - Sobota: 10:00 - 23:00</span>
+              <span class="fs-5 text-center">Niedziela: 10:00 - 20:00 </span>
+            </div>
+            <div class="col-xs-12 col-md-6 d-flex flex-column my-3">
+              <span class="fw-bold text-center text-decoration-underline fs-4">Adres:</span>
+              <span class="fs-5 text-center">ul. Lorem ipsum 5</span>
+              <span class="fs-5 text-center">12 - 345 Lorem</span>
+              <span class="fs-5 text-center"></span>
+              <span class="fs-5 text-center">tel. 12-123-456-789</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid bg-dark">
+        <div class="row d-flex justify-content-center align-items-center">
+          <p class="fs-5 fs-sm-6 text-white text-center ">&copy; 2021 &bull; Site designed by Sieradzki Piotr.</p>
+        </div>
+        
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

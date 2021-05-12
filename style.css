@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Peralta&family=Sigmar+One&display=swap');
+
+
+body {
+    font-family: 'Cantora One', sans-serif;
+    font-size: 1.6em;
+}
+
+#about-text {
+    font-size: 1rem;
+    text-align: justify;
+}
